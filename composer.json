@@ -1,0 +1,28 @@
+{
+    "name": "mimachh/slugme",
+    "description": "Slugify any model you need to",
+    "type": "library",
+    "version": "0.0.1",
+    "require": {
+            "laravel/framework": "^11.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mimachh\\Slugme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karl",
+            "email": "karl.mullr@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mimachh\\Slugme\\SlugMeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
